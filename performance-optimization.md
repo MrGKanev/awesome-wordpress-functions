@@ -2,7 +2,7 @@
 
 - [Load heavy 3rd-party scripts later for better performance](#load-heavy-3rd-party-scripts-later-for-better-performance)
 - [Set custom favicon on admin pages](#set-custom-favicon-on-admin-pages)
-- [Disable the message - JQMIGRATE: Migrate is installed, version 1.4.1]    (#disable-the-message---jqmigrate-migrate-is-installed-version-141)
+- [Disable the message - JQMIGRATE: Migrate is installed, version 1.4.1](#disable-the-message---jqmigrate-migrate-is-installed-version-141)
 
 ###  Load heavy 3rd-party scripts later for better performance
 
