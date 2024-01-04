@@ -50,6 +50,7 @@ You can use a plugin or add it into the functions.php file. Here are plugins whi
 
 
 - [Add Custom Post Type](#add-custom-post-type)
+- [Exclude a Category From WordPress Loops](#exclude-a-category-from-wordpress-loops)
 - [Implement Preconnect to Google Fonts in Themes](#implement-preconnect-to-google-fonts-in-themes)
 - [Add Thumbnail Column to Post Listing](#add-thumbnail-column-to-post-listing)
 - [Add Lead Class to First Paragraph](#add-lead-class-to-first-paragraph)

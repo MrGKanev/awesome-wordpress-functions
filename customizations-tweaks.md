@@ -1,6 +1,7 @@
 # Customizations & Tweaks
 
 - [Add Custom Post Type](#add-custom-post-type)
+- [Exclude a Category From WordPress Loops](#exclude-a-category-from-wordpress-loops)
 - [Implement Preconnect to Google Fonts in Themes](#implement-preconnect-to-google-fonts-in-themes)
 - [Add Thumbnail Column to Post Listing](#add-thumbnail-column-to-post-listing)
 - [Add Lead Class to First Paragraph](#add-lead-class-to-first-paragraph)
@@ -41,6 +42,30 @@ function create_custom_post() {
 }
 add_action('init', 'create_custom_post');
 ```
+
+### Exclude a Category From WordPress Loops
+
+```php
+/**
+ * Exclude a category from all WordPress loops
+ */
+
+add_action( 'pre_get_posts', function( $query ) { // anonymous callback
+    
+    global $wp_query; 
+
+    // Hard coded category ID, but can be dynamic: esc_attr(get_option('your-cat-id')); 
+    $excluded_cat_id = 25;
+
+    // add category ID to existing, avoid overwriting it 
+    $cat[] = $query->get( 'cat' );
+    $cat[] = "-" . $excluded_cat_id;
+
+    $query->set( 'cat', $cat );
+    }
+});
+```
+
 
 ###  Implement Preconnect to Google Fonts in Themes
 
