@@ -44,6 +44,7 @@ You can use a plugin or add it into the functions.php file. Here are plugins whi
 - [Create Custom Global Settings](#create-custom-global-settings)
 - [Remove WordPress Admin Bar](#remove-wordpress-admin-bar)
 - [Add Open Graph Meta Tags](#add-open-graph-meta-tags)
+- [Disable the WordPress Version information in the head section](#disable-the-wordpress-version-information-in-the-head-section)
 
 ## [4. Customizations & Tweaks](customizations-tweaks.md)
 
@@ -74,3 +75,4 @@ You can use a plugin or add it into the functions.php file. Here are plugins whi
 
 - [Load heavy 3rd-party scripts later for better performance](#load-heavy-3rd-party-scripts-later-for-better-performance)
 - [Set custom favicon on admin pages](#set-custom-favicon-on-admin-pages)
+- [Disable the message - JQMIGRATE: Migrate is installed, version 1.4.1]    (#disable-the-message---jqmigrate-migrate-is-installed-version-141)

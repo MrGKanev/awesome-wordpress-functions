@@ -9,6 +9,8 @@
 - [Create Custom Global Settings](#create-custom-global-settings)
 - [Remove WordPress Admin Bar](#remove-wordpress-admin-bar)
 - [Add Open Graph Meta Tags](#add-open-graph-meta-tags)
+- [Disable the WordPress Version information in the head section](#disable-the-wordpress-version-information-in-the-head-section)
+
 
 ### Create a Global String
 
@@ -216,4 +218,10 @@ function meta_og() {
     }
 }
 add_action('wp_head', 'meta_og', 5);
+```
+
+### Disable the WordPress Version information in the head section
+
+```php
+    remove_action('wp_head', 'wp_generator');
 ```
