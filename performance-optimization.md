@@ -3,6 +3,7 @@
 - [Load heavy 3rd-party scripts later for better performance](#load-heavy-3rd-party-scripts-later-for-better-performance)
 - [Set custom favicon on admin pages](#set-custom-favicon-on-admin-pages)
 - [Disable the message - JQMIGRATE: Migrate is installed, version 1.4.1](#disable-the-message---jqmigrate-migrate-is-installed-version-141)
+- [Empty Trash Automatically](performance-optimization.md/#empty-trash-automatically)
 
 ###  Load heavy 3rd-party scripts later for better performance
 
@@ -51,4 +52,10 @@ add_action('wp_default_scripts', function ($scripts) {
         $scripts->registered['jquery']->deps = array_diff($scripts->registered['jquery']->deps, ['jquery-migrate']);
     }
 });
+```
+
+### Empty Trash Automatically
+
+```php
+    define('EMPTY_TRASH_DAYS', 5 );
 ```

@@ -19,7 +19,7 @@ You can use a plugin or add it into the functions.php file. Here are plugins whi
 - [Enqueue Styles and Scripts](general-wordpress-setup.md/#enqueue-styles-and-scripts)
 - [Enqueue Google Fonts](general-wordpress-setup.md/#enqueue-google-fonts)
 
-## [2. Content Modification](content-modification.md)
+## 2. [Content Modification](content-modification.md)
 
 - [Modify Excerpt Length](content-modification.md/#modify-excerpt-length)
 - [Change Read More Link](content-modification.md/#change-read-more-link)
@@ -33,7 +33,7 @@ You can use a plugin or add it into the functions.php file. Here are plugins whi
 - [Add Tags for Attachments](content-modification.md/#add-tags-for-attachments)
 - [Add Custom Excerpt to Pages](content-modification.md/#add-custom-excerpt-to-pages)
 
-## [3. Global Settings & Customizations](global-settings-customizations.md)
+## 3. [Global Settings & Customizations](global-settings-customizations.md)
 
 - [Create a Global String](global-settings-customizations.md/#create-a-global-string)
 - [Support Featured Images](global-settings-customizations.md/#support-featured-images)
@@ -46,7 +46,7 @@ You can use a plugin or add it into the functions.php file. Here are plugins whi
 - [Add Open Graph Meta Tags](global-settings-customizations.md/#add-open-graph-meta-tags)
 - [Disable the WordPress Version information in the head section](global-settings-customizations.md/#disable-the-wordpress-version-information-in-the-head-section)
 
-## [4. Customizations & Tweaks](customizations-tweaks.md)
+## 4. [Customizations & Tweaks](customizations-tweaks.md)
 
 
 - [Add Custom Post Type](customizations-tweaks.md/#add-custom-post-type)
@@ -58,22 +58,23 @@ You can use a plugin or add it into the functions.php file. Here are plugins whi
 - [Remove Query String from Static Resources](customizations-tweaks.md/#remove-query-string-from-static-resources)
 - [Disable Website Field From Comment Form](customizations-tweaks.md/#disable-website-field-from-comment-form)
 - [Modify jQuery](customizations-tweaks.md/#modify-jquery)
-- [Disable JSON Rest API](#customizations-tweaks.mddisable-json-rest-api)
+- [Disable JSON Rest API](customizations-tweaks.md/#customizations-tweaks.mddisable-json-rest-api)
 
-## [5. Admin Menu & User Role Management](admin-menu-user-role-management.md)
+## 5. [Admin Menu & User Role Management](admin-menu-user-role-management.md)
 
 - [Remove Admin Menu Items Depending on User Role](admin-menu-user-role-management.md/#remove-admin-menu-items-depending-on-user-role)
 - [Remove Admin Menu Items Depending on Email Address (Domain)](admin-menu-user-role-management.md/#remove-admin-menu-items-depending-on-email-address-domain)
 - [Reorder Admin Menu Items](admin-menu-user-role-management.md/#reorder-admin-menu-items)
 
-## [6. PHP & Scripting](php-scripting.md)
+## 6. [PHP & Scripting](php-scripting.md)
 
 - [PHP Logger](php-scripting.md/#php-logger)
 - [Always Show Second Bar in TinyMCE](php-scripting.md/#always-show-second-bar-in-tinymce)
 - [Switch Post Type](php-scripting.md/#switch-post-type)
 
-## [7. Performance Optimization](performance-optimization.md)
+## 7. [Performance Optimization](performance-optimization.md)
 
 - [Load heavy 3rd-party scripts later for better performance](performance-optimization.md/#load-heavy-3rd-party-scripts-later-for-better-performance)
 - [Set custom favicon on admin pages](performance-optimization.md/#set-custom-favicon-on-admin-pages)
 - [Disable the message - JQMIGRATE: Migrate is installed, version 1.4.1](performance-optimization.md/#disable-the-message---jqmigrate-migrate-is-installed-version-141)
+- [Empty Trash Automatically](performance-optimization.md/#empty-trash-automatically)
