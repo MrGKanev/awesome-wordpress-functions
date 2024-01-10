@@ -78,3 +78,7 @@ You can use a plugin or add it into the functions.php file. Here are plugins whi
 - [Set custom favicon on admin pages](performance-optimization.md/#set-custom-favicon-on-admin-pages)
 - [Disable the message - JQMIGRATE: Migrate is installed, version 1.4.1](performance-optimization.md/#disable-the-message---jqmigrate-migrate-is-installed-version-141)
 - [Empty Trash Automatically](performance-optimization.md/#empty-trash-automatically)
+
+## 8. [WooCommerce modifications](woocommerce-modifications.md)
+
+- [Deactivate some WooCommerce Checkout Fields ](woocommerce-modifications.md/#deactivate-some-woocommerce-checkout-fields)

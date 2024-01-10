@@ -5,7 +5,7 @@
 - [Disable the message - JQMIGRATE: Migrate is installed, version 1.4.1](#disable-the-message---jqmigrate-migrate-is-installed-version-141)
 - [Empty Trash Automatically](performance-optimization.md/#empty-trash-automatically)
 
-###  Load heavy 3rd-party scripts later for better performance
+### Load heavy 3rd-party scripts later for better performance
 
 Lighthouse and similar performance analysis tools always complain about render-blocking scripts (and styles),
 short cache TTL etc. Most of these scripts and styles come from 3rd-party sources which we can't control –
