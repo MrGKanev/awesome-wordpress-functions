@@ -72,13 +72,21 @@ You can use a plugin or add it into the functions.php file. Here are plugins whi
 - [Always Show Second Bar in TinyMCE](php-scripting.md/#always-show-second-bar-in-tinymce)
 - [Switch Post Type](php-scripting.md/#switch-post-type)
 
-## 7. [Performance Optimization](performance-optimization.md)
+## 7. [WP Config](wp-config.md)
+
+- [Change Table Prefixes](wp-config.md/#change-table-prefixes)
+- [Enable the Wordpress Debugger](wp-config.md/#enable-the-wordpress-debugger)
+- [Disable the theme and plugin editor](wp-config.md/#disable-the-theme-and-plugin-editor)
+- [Moving wp-content Directory](wp-config.md/#moving-wp-content-directory)
+- [Limiting HTTPS requests](wp-config.md/#limiting-https-requests)
+
+## 8. [Performance Optimization](performance-optimization.md)
 
 - [Load heavy 3rd-party scripts later for better performance](performance-optimization.md/#load-heavy-3rd-party-scripts-later-for-better-performance)
 - [Set custom favicon on admin pages](performance-optimization.md/#set-custom-favicon-on-admin-pages)
 - [Disable the message - JQMIGRATE: Migrate is installed, version 1.4.1](performance-optimization.md/#disable-the-message---jqmigrate-migrate-is-installed-version-141)
 - [Empty Trash Automatically](performance-optimization.md/#empty-trash-automatically)
 
-## 8. [WooCommerce modifications](woocommerce-modifications.md)
+## 9. [WooCommerce modifications](woocommerce-modifications.md)
 
 - [Deactivate some WooCommerce Checkout Fields ](woocommerce-modifications.md/#deactivate-some-woocommerce-checkout-fields)
