@@ -2,9 +2,9 @@
 
 This is a list of useful WordPress functions that I often reference to enhance or clean up my sites. Please be careful and make backups.
 
-You can use a plugin or add it into the functions.php file. Here are plugins which I recommend:
+You can use a plugin or add it into your "functions.php" file. Here are plugins that I recommend:
 
-- [FluentSnippets](https://wordpress.org/plugins/easy-code-manager/) - Newer but faster.
+- [Fluent Snippets](https://wordpress.org/plugins/easy-code-manager/) - Newer but faster.
 - [Code Snippets](https://wordpress.org/plugins/code-snippets/) - Slower but popular.
 
 ## 1. [General WordPress Setup](general-wordpress-setup.md)
@@ -41,7 +41,7 @@ You can use a plugin or add it into the functions.php file. Here are plugins whi
 - [Excluding pages from search](global-settings-customizations.md/#excluding-pages-from-search)
 - [Disable XMLRPC](global-settings-customizations.md/#disable-xmlrpcphp)
 - [Escape HTML in Posts](global-settings-customizations.md/#escape-html-in-posts)
-- [Create Custom Global Settings](#global-settings-customizations.mdcreate-custom-global-settings)
+- [Create Custom Global Settings](global-settings-customizations.md/#global-settings-customizations.mdcreate-custom-global-settings)
 - [Remove WordPress Admin Bar](global-settings-customizations.md/#remove-wordpress-admin-bar)
 - [Add Open Graph Meta Tags](global-settings-customizations.md/#add-open-graph-meta-tags)
 - [Disable the WordPress Version information in the head section](global-settings-customizations.md/#disable-the-wordpress-version-information-in-the-head-section)
@@ -89,5 +89,5 @@ You can use a plugin or add it into the functions.php file. Here are plugins whi
 
 ## 9. [WooCommerce modifications](woocommerce-modifications.md)
 
-- [Deactivate some WooCommerce Checkout Fields ](woocommerce-modifications.md/#deactivate-some-woocommerce-checkout-fields)
+- [Deactivate some WooCommerce Checkout Fields](woocommerce-modifications.md/#deactivate-some-woocommerce-checkout-fields)
 - [Restricting Access to Pages Based on WooCommerce Purchases](woocommerce-modifications.md/#restricting-access-to-pages-based-on-woocommerce-purchases)
