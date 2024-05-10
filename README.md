@@ -90,3 +90,4 @@ You can use a plugin or add it into the functions.php file. Here are plugins whi
 ## 9. [WooCommerce modifications](woocommerce-modifications.md)
 
 - [Deactivate some WooCommerce Checkout Fields ](woocommerce-modifications.md/#deactivate-some-woocommerce-checkout-fields)
+- [Restricting Access to Pages Based on WooCommerce Purchases](woocommerce-modifications.md/#restricting-access-to-pages-based-on-woocommerce-purchases)

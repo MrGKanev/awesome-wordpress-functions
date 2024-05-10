@@ -1,6 +1,7 @@
 # [WooCommerce modifications](woocommerce-modifications.md)
 
 - [Deactivate some WooCommerce Checkout Fields](#deactivate-some-woocommerce-checkout-fields)
+- [Restricting Access to Pages Based on WooCommerce Purchases](#restricting-access-to-pages-based-on-woocommerce-purchases)
 
 ### Deactivate some WooCommerce Checkout Fields
 
@@ -26,4 +27,64 @@ unset($fields['account']['account_password']);
 unset($fields['account']['account_password-2']);
 return $fields;
 }
+```
+
+### Restricting Access to Pages Based on WooCommerce Purchases
+
+```php
+unction restrict_page_access() {
+    // Configuration
+    $access_rules = [
+        'products-1' => [
+            'product_ids' => [1],
+            'redirect'    => 'https://websquadron.s3-tastewp.com/shop',
+        ],
+        'products-2' => [
+            'product_ids' => [1, 2],
+            'redirect'    => 'https://websquadron.s3-tastewp.com/contact',
+        ],
+        'products-3' => [
+            'product_ids' => [1, 2],
+            'redirect'    => 'https://websquadron.s3-tastewp.com/home',
+        ],
+    ];
+
+    // Get current user ID and check if the user is an administrator
+    $user_id = get_current_user_id();
+    $is_admin = current_user_can('administrator');
+ 
+    // If user is an administrator, skip restriction checks
+    if ($is_admin) {
+        return;
+    }
+ 
+    // Get the current page
+    $current_page = get_queried_object();
+ 
+    // Ensure $current_page is a WP_Post object
+    if (!($current_page instanceof WP_Post)) {
+        return;
+    }
+ 
+    // Iterate through access rules and apply restrictions
+    foreach ($access_rules as $slug => $rule) {
+        if ($current_page->post_name === $slug) {
+            // Check if user has purchased any of the required products
+            $has_purchased = false;
+            foreach ($rule['product_ids'] as $product_id) {
+                if (wc_customer_bought_product($user_id, $user_id, $product_id)) {
+                    $has_purchased = true;
+                    break;
+                }
+            }
+ 
+            // Redirect if the user hasn't purchased the required products
+            if (!$has_purchased) {
+                wp_redirect($rule['redirect']);
+                exit;
+            }
+        }
+    }
+}
+add_action('template_redirect', 'restrict_page_access');
 ```
