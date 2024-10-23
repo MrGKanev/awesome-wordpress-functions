@@ -89,7 +89,7 @@ unction restrict_page_access() {
 add_action('template_redirect', 'restrict_page_access');
 ```
 
-### Rounding prices to .99
+### Rounding prices to 99
 
 ```php
 add_filter('woocommerce_get_price', 'custom_price_rounding', 99, 2);
