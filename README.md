@@ -60,11 +60,11 @@ You can use a plugin or add it into your "functions.php" file. Here are plugins 
 - [Modify jQuery](customizations-tweaks.md/#modify-jquery)
 - [Disable JSON Rest API](customizations-tweaks.md/#customizations-tweaks.mddisable-json-rest-api)
 
-## 5. [Admin Menu & User Role Management](admin-menu-user-role-management.md)
+## 5. [Admin Menu & User Role Management](admin-user-role.md)
 
-- [Remove Admin Menu Items Depending on User Role](admin-menu-user-role-management.md/#remove-admin-menu-items-depending-on-user-role)
-- [Remove Admin Menu Items Depending on Email Address (Domain)](admin-menu-user-role-management.md/#remove-admin-menu-items-depending-on-email-address-domain)
-- [Reorder Admin Menu Items](admin-menu-user-role-management.md/#reorder-admin-menu-items)
+- [Remove Admin Menu Items Depending on User Role](admin-user-role.md/#remove-admin-menu-items-depending-on-user-role)
+- [Remove Admin Menu Items Depending on Email Address (Domain)](admin-user-role.md/#remove-admin-menu-items-depending-on-email-address-domain)
+- [Reorder Admin Menu Items](admin-user-role.md/#reorder-admin-menu-items)
 
 ## 6. [PHP & Scripting](php-scripting.md)
 
@@ -91,3 +91,4 @@ You can use a plugin or add it into your "functions.php" file. Here are plugins 
 
 - [Deactivate some WooCommerce Checkout Fields](woocommerce-modifications.md/#deactivate-some-woocommerce-checkout-fields)
 - [Restricting Access to Pages Based on WooCommerce Purchases](woocommerce-modifications.md/#restricting-access-to-pages-based-on-woocommerce-purchases)
+- [Rounding prices to .99](woocommerce-modifications.md/#rounding-prices-to-99)

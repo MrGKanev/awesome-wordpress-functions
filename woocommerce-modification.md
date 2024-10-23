@@ -88,3 +88,15 @@ unction restrict_page_access() {
 }
 add_action('template_redirect', 'restrict_page_access');
 ```
+
+### Rounding prices to .99
+
+```php
+add_filter('woocommerce_get_price', 'custom_price_rounding', 99, 2);
+add_filter('woocommerce_get_sale_price', 'custom_price_rounding', 99, 2);
+add_filter('woocommerce_get_regular_price', 'custom_price_rounding', 99, 2);
+
+function custom_price_rounding($price, $product) {
+    return ceil($price) - 0.01;
+}
+```
